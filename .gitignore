@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+######################################
+# Virtual Environment
+venv/
+password-checker-tool/backend/venv/
+
+# Node modules (for future React app)
+node_modules/
+password-checker-tool/frontend/node_modules/
+
+# Documentation screenshots during development
+project-screenshots/
+
+# Environment variables
+.env
+*.env
+
+# Hashcat related
+hashcat-demo/*.pot
+hashcat-demo/*.hccapx
